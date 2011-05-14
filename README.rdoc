@@ -1,0 +1,33 @@
+= Skeleton kit
+
+This is a skeleton for quick kit development using the Kit framework. For more information about Kit, visit the project homepage at
+
+* https://github.com/razor-x/kit
+
+== Building your own kit
+
+You can build your own kit by following the documentation at
+
+* https://github.com/razor-x/kit/wiki/Building-your-own-kit
+
+You should rewrite this README.rdoc file to document your kit.
+
+== Development
+
+=== Source Repository
+
+This kit skeleton is currently hosted at github. The github web page is
+https://github.com/razor-x/kit. To clone the project run
+
+  git clone git://github.com/razor-x/kits_skeleton.git
+
+== License
+
+This kit skeleton is licensed under the MIT license.
+
+== Warranty
+
+This software is provided "as is" and without any express or
+implied warranties, including, without limitation, the implied
+warranties of merchantibility and fitness for a particular
+purpose.
