@@ -22,7 +22,7 @@
 #   :table_name: [ :rowid, :name, :column_name_1, :column_name_2 ]
 # where :rowid and :name are required columns.
 #
-# Except for :rowid and :name, tables should noe share any column names.
+# Except for :rowid and :name, tables should not share any column names.
 #
 :info:
   :bits: [ :rowid, :name, :group_id ]
