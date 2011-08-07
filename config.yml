@@ -35,7 +35,7 @@
   :groups: [ :name ]
 # Each table in the :actions: database must be of the form
 #   :table_name: [ :rowid, :bit, :status, :column_name_1, :column_name_2 ]
-# where :rowid, :bit, :status, and :time are required columns.
+# where :rowid, :bit, :status, :message, and :time are required columns.
 #
 :actions:
-  :example_action: [ :rowid, :bit, :status, :time ]
+  :example_action: [ :rowid, :bit, :status, :message, :time ]
