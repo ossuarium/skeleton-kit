@@ -17,7 +17,7 @@ You should rewrite this README.rdoc file to document your kit.
 === Source Repository
 
 This kit skeleton is currently hosted at github. The github web page is
-https://github.com/razor-x/kit. To clone the project run
+https://github.com/razor-x/kits_skeleton. To clone the project run
 
   git clone git://github.com/razor-x/kits_skeleton.git
 
