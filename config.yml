@@ -25,17 +25,30 @@
 # Except for :rowid and :name, tables should not share any column names.
 #
 :info:
-  :bits: [ :rowid, :name, :group_id ]
-  :groups: [ :rowid, :name ]
+  :bits:
+    - :rowid
+    - :name
+    - :group_id
+  :groups:
+    - :rowid
+    - :name
 #
 # Columns that when taken as a set are unique to each bit. Does not include :rowid.
 #
 :unique:
-  :bits: [ :name, :group_id ]
-  :groups: [ :name ]
+  :bits:
+    - :name
+    - :group_id
+  :groups:
+    - :name
 # Each table in the :actions: database must be of the form
 #   :table_name: [ :rowid, :bit, :status, :column_name_1, :column_name_2 ]
 # where :rowid, :bit, :status, :message, and :time are required columns.
 #
 :actions:
-  :example_action: [ :rowid, :bit, :status, :message, :time ]
+  :example_action:
+    - :rowid
+    - :bit
+    - :status
+    - :message
+    - :time
