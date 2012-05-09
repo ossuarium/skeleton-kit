@@ -1,16 +1,28 @@
 = Skeleton kit
 
-This is a skeleton for quick kit development using the Kit framework. For more information about Kit, visit the project homepage at
+This is a kit skeleton you can use as a template for building your own kit. For more information about Kit, visit the project homepage at
 
 * https://github.com/razor-x/kit
 
+You should rewrite this README.rdoc file to document your kit.
+
 == Building your own kit
 
-You can build your own kit by following the documentation at
+You can build your own kit by cloning the Skeleton kit
+
+  $ git clone git://github.com/razor-x/kit.git my_new_kit && cd my_new_kit
+
+then install gem dependencies using
+
+  $ bundle
+
+Next, you can create the database with
+
+  $ rake db:migrate
+
+Each file is individually documented if you want to dive in. A more comprehensive documentation is available at
 
 * https://github.com/razor-x/kit/wiki/Building-your-own-kit
-
-You should rewrite this README.rdoc file to document your kit.
 
 == Development
 
@@ -19,7 +31,7 @@ You should rewrite this README.rdoc file to document your kit.
 This kit skeleton is currently hosted at github. The github web page is
 https://github.com/razor-x/kits_skeleton. To clone the project run
 
-  git clone git://github.com/razor-x/kits_skeleton.git
+  $ git clone git://github.com/razor-x/kits_skeleton.git
 
 == License
 

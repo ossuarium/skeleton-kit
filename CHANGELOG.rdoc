@@ -1,0 +1,7 @@
+#--
+Rewrite this ChangeLog to document your kit's development.
+#++
+
+= Skeleton kit ChangeLog
+
+== 1.0.0
