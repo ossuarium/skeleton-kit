@@ -30,3 +30,11 @@ namespace 'db' do
     end
   end
 end
+
+task :mk_migration, :name do |_, args|
+  f = File.new "migrations/#{Time.now.to_i}_#{args[:name]}.rb", 'w+'
+  f << "class #{args[:name].split('_').map{ |s| s.capitalize }.join} < ActiveRecord::Migration"
+  f << "\n"
+  f << "end"
+  f.close
+end
