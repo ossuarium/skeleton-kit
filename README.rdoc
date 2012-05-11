@@ -20,7 +20,7 @@ Next, you can create the database with
 
   $ rake db:migrate
 
-Each file is individually documented if you want to dive in. A more comprehensive documentation is available at
+Each file and directory is individually documented if you want to dive in. A more comprehensive documentation is available at
 
 * https://github.com/razor-x/kit/wiki/Building-your-own-kit
 

@@ -1,9 +1,9 @@
 #
 # Any settings added to this file will be available in Kit#config.
 #
-#
 # Database configuration loaded by ActiveRecord.
-# Settings shown for an sqlite adapter.
+# Settings shown for an sqlite3 adapter.
+#
 :db:
   :adapter: sqlite3
-  :database: db/kit.sqlite
+  :database: db/kit.sqlite3
