@@ -31,10 +31,28 @@ namespace 'db' do
   end
 end
 
-task :mk_migration, :name do |_, args|
-  f = File.new "migrations/#{Time.now.to_i}_#{args[:name]}.rb", 'w+'
-  f << "class #{args[:name].camelize} < ActiveRecord::Migration"
-  f << "\n"
-  f << "end"
-  f.close
+namespace 'mk' do
+
+  def make_class_template file_name, class_line
+    unless File.exists? file_name
+      f = File.new file_name, 'w+'
+      f << class_line
+      f << "\nend"
+      f.close
+    end
+  end
+
+  task :migration, :name do |_, args|
+    make_class_template "migrations/#{Time.now.to_i}_#{args[:name]}.rb", "class #{args[:name].camelize} < ActiveRecord::Migration"
+  end
+
+  task :model, :name do |_, args|
+    make_class_template "models/#{args[:name]}.rb", "class Kit::#{args[:name].camelize} < ActiveRecord::Base"
+  end
+
+  task :group, :name do |_, args|
+    kit = Kit.open 'config.yml'
+    Kit::Group.create :name => args[:name].gsub('_', ' ')
+    make_class_template "actions/#{args[:name]}.rb", "module KitActions#{args[:name].camelize}"
+  end
 end
