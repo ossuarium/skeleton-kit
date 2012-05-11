@@ -21,7 +21,7 @@ namespace 'db' do
     kit.db_connect
   end
 
-  task :migrate => [:create, :environment] do |_, args|
+  task :migrate, [:direction, :steps]  => [:create, :environment] do |_, args|
     args.with_defaults(direction: nil, steps: 1)
     if args[:direction].nil?
       kit.db_migrate
