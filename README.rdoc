@@ -1,18 +1,19 @@
 = Skeleton kit
 
-This is a kit skeleton you can use as a template for building your own kit. For more information about Kit, visit the project homepage at
+<em>You should rewrite this and the other README.rdoc files to document your kit.</em>
 
-* https://github.com/razor-x/kit
-
-You should rewrite this README.rdoc file to document your kit.
+This is a kit skeleton you can use as a template for building your own kit.
+For more information about Kit, visit the {project homepage}[https://github.com/razor-x/kit].
 
 == Building your own kit
 
-You can build your own kit by cloning the Skeleton kit
+You can build your own kit by using the skeleton kit as a template.
+Create and enter a new directory for your kit and run
 
-  $ git clone git://github.com/razor-x/kit.git my_new_kit && cd my_new_kit
+  $ git init
+  $ git pull git://github.com/razor-x/kits_skeleton.git
 
-then install gem dependencies using
+and then install gem dependencies using
 
   $ bundle
 
@@ -20,16 +21,15 @@ Next, you can create the database with
 
   $ rake db:migrate
 
-Each file and directory is individually documented if you want to dive in. A more comprehensive documentation is available at
-
-* https://github.com/razor-x/kit/wiki/Building-your-own-kit
+Each file and directory is individually documented if you want to dive in,
+otherwise you can start with some more {comprehensive documentation}[https://github.com/razor-x/kit/wiki/Building-your-own-kit].
 
 == Development
 
 === Source Repository
 
-This kit skeleton is currently hosted at github. The github web page is
-https://github.com/razor-x/kits_skeleton. To clone the project run
+The {kit skeleton source}[https://github.com/razor-x/kits_skeleton] is currently hosted at github.
+To clone the project run
 
   $ git clone git://github.com/razor-x/kits_skeleton.git
 
