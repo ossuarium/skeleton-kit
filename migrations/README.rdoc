@@ -5,7 +5,7 @@ To generate a new migration, run
   $ rake mk:migration[new_migration_name]
 
 in the kit's root directory.
-This will create a new migration file named +UNIX_TIME_STAMP_new_migration_name.rb+.
+This will create a new migration file named +YYYYMMDDHHMMSS_new_migration_name.rb+.
 Every new kit starts with the migration +CreateBasicTables+.
 
 Run
