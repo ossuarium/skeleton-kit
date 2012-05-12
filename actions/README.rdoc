@@ -2,7 +2,7 @@
 Actions are modules that add instance methods to +Bit+ objects.
 Bits can be grouped together. To create a new group, run
 
-  $ rake mk:group[new_group_name]
+  $ rake add:group[new_group_name]
 
 in the kit's root directory.
 
@@ -12,4 +12,4 @@ Any instance methods added to the +KitActionsNewGroupName+ module can be called 
 The +KitActionsDefault+ module is loaded for bits without a group.
 
 If you want to use additional helper files instead of putting all of the behavior in +new_group_name.rb+, just place them in +actions/new_group_name+.
-You will still need to include any ruby files you create here in +new_group_name.rb+.
+You will still need to include any Ruby files you create here in +new_group_name.rb+.
