@@ -6,7 +6,7 @@ To generate a new migration, run
 
 in the kit's root directory.
 This will create a new migration file named +YYYYMMDDHHMMSS_new_migration_name.rb+.
-Every new kit starts with the migration +CreateBasicTables+.
+Every new kit starts with the migration +CreateBasicTables+ and possibly others as features are added and kit evolves.
 
 Run
 
