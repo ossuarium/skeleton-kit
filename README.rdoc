@@ -1,4 +1,4 @@
-= Skeleton kit
+= skeleton-kit
 
 <em>You should rewrite this and the other README.rdoc files to document your kit.</em>
 

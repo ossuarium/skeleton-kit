@@ -1,4 +1,4 @@
-= Skeleton kit ChangeLog
+= skeleton-kit ChangeLog
 
 <em>Rewrite this ChangeLog to document your kit's development.</em>
 
