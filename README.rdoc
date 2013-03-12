@@ -11,7 +11,7 @@ You can build your own kit by using the skeleton kit as a template.
 Create and enter a new directory for your kit and run
 
   $ git init
-  $ git pull git://github.com/razor-x/ skeleton-kit.git
+  $ git pull git://github.com/razor-x/skeleton-kit.git
 
 and then install gem dependencies using
 
@@ -28,14 +28,14 @@ otherwise you can start with some more {comprehensive documentation}[https://git
 
 === Source Repository
 
-The {kit skeleton source}[https://github.com/razor-x/ skeleton-kit] is currently hosted at github.
+The {kit skeleton source}[https://github.com/razor-x/skeleton-kit] is currently hosted at github.
 To clone the project run
 
-  $ git clone git://github.com/razor-x/ skeleton-kit.git
+  $ git clone git://github.com/razor-x/skeleton-kit.git
 
 == License
 
-This kit skeleton is licensed under the MIT license.
+skeleton-kit is licensed under the MIT license.
 
 == Warranty
 
