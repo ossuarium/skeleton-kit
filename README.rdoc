@@ -28,7 +28,7 @@ otherwise you can start with some more {comprehensive documentation}[https://git
 
 === Source Repository
 
-The {kit skeleton source}[https://github.com/razor-x/skeleton-kit] is currently hosted at github.
+The {skeleton-kit source}[https://github.com/razor-x/skeleton-kit] is currently hosted at github.
 To clone the project run
 
   $ git clone git://github.com/razor-x/skeleton-kit.git
