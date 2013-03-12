@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'kit', '~>1.0.0'
+gem 'kit', '~> 1.0.0'
+gem 'bump', '~> 0.3.0'
 
 # Add other gem dependencies for you kit below.
