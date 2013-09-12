@@ -1,3 +1,3 @@
-# These actions are loaded for bits that are not in a group.
+# These actions are loaded for all bits.
 module KitActionsDefault
 end
