@@ -3,7 +3,9 @@
 Actions are modules that add instance methods to `Kit::Bit` objects.
 Bits can be grouped together. To create a new group, run
 
-    $ rake add:group[new_group_name]
+````bash
+$ rake add:group[new_group_name]
+````
 
 in the kit's root directory.
 

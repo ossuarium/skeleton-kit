@@ -3,7 +3,9 @@
 Models are subclasses of `ActiveRecord::Base`.
 To add a new data model to your kit run
 
-    $ rake mk:model[new_model_name]
+````bash
+$ rake mk:model[new_model_name]
+````
 
 in the kit's root directory (`new_model_name` should be a singular noun).
 This will create a new model file named `new_model_name.rb`.

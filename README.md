@@ -10,15 +10,21 @@ For more information about Kit, visit the [project homepage](https://github.com/
 You can build your own kit by using the skeleton kit as a template.
 Just clone this with
 
-    $ git clone git://github.com/razor-x/skeleton-kit.git my-kit
+````bash
+$ git clone git://github.com/razor-x/skeleton-kit.git my-kit
+````
 
 and then install gem dependencies using
 
-    $ bundle
+````bash
+$ bundle
+````
 
 Next, you can create the database with
 
-    $ rake db:migrate
+````bash
+$ rake db:migrate
+````
 
 Each file and directory is individually documented if you want to dive in,
 otherwise you can start with some more [comprehensive documentation](https://github.com/razor-x/kit/wiki/Building-your-own-kit).
@@ -28,14 +34,18 @@ otherwise you can start with some more [comprehensive documentation](https://git
 If you want to merge in future updates from this project and have your own origin,
 set up a separate branch to track this.
 
-    $ git remote rename origin skeleton-kit
-    $ git branch skeleton-kit
-    $ git branch -u skeleton-kit/master skeleton-kit
+````bash
+$ git remote rename origin skeleton-kit
+$ git branch skeleton-kit
+$ git branch -u skeleton-kit/master skeleton-kit
+````
 
 Then add an origin and push master
 
-    $ git remote add origin git@github.com:username/my-kit.git
-    $ git push -u origin master
+````bash
+$ git remote add origin git@github.com:username/my-kit.git
+$ git push -u origin master
+````
 
 Now, the `skeleton-kit` branch will pull changes from this project,
 which you can then merge into your other branches.
@@ -47,7 +57,9 @@ which you can then merge into your other branches.
 The [skeleton-kit source](https://github.com/razor-x/skeleton-kit) is currently hosted at github.
 To clone the project run
 
-    $ git clone git://github.com/razor-x/skeleton-kit.git
+````bash
+$ git clone git://github.com/razor-x/skeleton-kit.git
+````
 
 ## License
 
