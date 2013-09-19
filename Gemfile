@@ -18,6 +18,7 @@ end
 group :development do
   gem 'bump', '~> 0.4.0'
   gem 'guard-rspec', '~> 3.0.3'
+  gem 'guard-yard', '~> 2.1.0'
 end
 
 # Add other gem dependencies for you kit below.
