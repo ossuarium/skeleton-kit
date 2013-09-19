@@ -26,8 +26,11 @@ Next, you can create the database with
 $ rake db:migrate
 ````
 
-Each file and directory is individually documented if you want to dive in,
-otherwise you can start with some more [comprehensive documentation](https://github.com/razor-x/kit/wiki/Building-your-own-kit).
+Each file and directory is
+[individually documented with yard](http://rubydoc.info/github/razor-x/skeleton-kit/master/frames)
+if you want to dive in,
+otherwise you can start with some more
+[comprehensive documentation](https://github.com/razor-x/kit/wiki/Building-your-own-kit).
 
 ### Add future update support
 
