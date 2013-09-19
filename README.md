@@ -1,6 +1,6 @@
 # skeleton-kit
 
-_You should rewrite this and the other README.rdoc files to document your kit._
+_You should rewrite this and the other README.md files to document your kit._
 
 This is a kit skeleton you can use as a template for building your own kit.
 For more information about Kit, visit the [project homepage](https://github.com/razor-x/kit).
